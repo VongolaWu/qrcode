@@ -4,7 +4,7 @@ document.getElementById('qr-form').addEventListener('submit', function(event) {
     const name = document.getElementById('name').value;
     const info = document.getElementById('info').value;
   
-    fetch('http://localhost:3000/api/qr/create', {
+    fetch('https://qrcode-v28d.onrender.com/api/qr/create', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
